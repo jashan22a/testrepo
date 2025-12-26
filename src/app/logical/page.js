@@ -17,6 +17,7 @@ export default function Logical() {
   const chunkSize = 3;
   const chunks = chunkArray(inputArray, chunkSize);
   console.log("chunks", chunks);
+  console.log("chunks2", chunks);
 
   //reverce string
   const inputString = "Hello, World!";
